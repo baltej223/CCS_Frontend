@@ -1,5 +1,11 @@
-interface HomeProps {}
+import Navbar from "@/_components/Navbar";
 
 const Home = () => {
-  return <div>Main ccs Website</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
+
+export default Navbar;
